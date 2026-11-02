@@ -1,0 +1,37 @@
+{
+  "java": {
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+    "sha256": "bc21a93923103cdaac93ee337b0ae4365e739fde36df823dd456bc67c8a9d352",
+    "filename": "OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+    "version": "17.0.20.1+1",
+    "size": 43780109
+  },
+  "python": {
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261021/cpython-3.12.15%2B20261021-x86_64-pc-windows-msvc-install_only.tar.gz",
+    "sha256": "be7f14464d1d66f84429ad27e01f6d1482963afff64a2fb5256b2a51c7b5d398",
+    "filename": "cpython-3.12.15+20261021-x86_64-pc-windows-msvc-install_only.tar.gz",
+    "version": "cpython-3.12.15",
+    "size": 46388793
+  },
+  "winsw": {
+    "url": "https://github.com/winsw/winsw/releases/download/v2.12.0/WinSW.NET4.exe",
+    "sha256": "923111c7142b3dc783a3c722b19b8a21bcb78222d7a136ac33f0ca8a29f4cb66",
+    "filename": "WinSW.NET4.exe",
+    "version": "2.12.0",
+    "size": 852480
+  },
+  "postgres": {
+    "url": "https://get.enterprisedb.com/postgresql/postgresql-16.15-1-windows-x64-binaries.zip",
+    "filename": "postgresql-16.15-1-windows-x64-binaries.zip",
+    "version": "16.15-1",
+    "sha256": "25e6fcdfb8caec38691bf461125e7564508760666f7b8e5dc6a5f0818f58f81e",
+    "size": 332441502
+  },
+  "vcredist": {
+    "url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+    "filename": "vc_redist.x64.exe",
+    "version": "v14-latest-2026-10-24",
+    "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+    "size": 18731856
+  }
+}

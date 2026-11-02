@@ -1,0 +1,16 @@
+[Unit]
+Description=ETF Quant Lab SSH tunnel (localhost:18088)
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=%h/projects/etf-quant-lab
+ExecStart=/usr/bin/bash %h/projects/etf-quant-lab/deploy/scripts/tunnel.sh
+# 网络断开或 SSH 进程退出后重新连接，不依赖 Codex 终端存活。
+Restart=always
+RestartSec=5
+TimeoutStopSec=5
+UMask=0077
+
+[Install]
+WantedBy=default.target

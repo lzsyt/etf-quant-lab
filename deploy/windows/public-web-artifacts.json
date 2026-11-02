@@ -1,0 +1,14 @@
+{
+  "nginx": {
+    "filename": "nginx-1.31.8.zip",
+    "url": "https://nginx.org/download/nginx-1.31.8.zip",
+    "size": 2794487,
+    "sha256": "fbb1501009be34655cc238d460714cf20391b639013f4c73859813d7938783fd"
+  },
+  "win_acme": {
+    "filename": "win-acme.v2.2.9.1701.x64.trimmed.zip",
+    "url": "https://github.com/win-acme/win-acme/releases/download/v2.2.9.1701/win-acme.v2.2.9.1701.x64.trimmed.zip",
+    "size": 14291591,
+    "sha256": "f4dc3b144841ffdba391ce168c273d7a686d45a359075e30ee4bf4ee186857d6"
+  }
+}

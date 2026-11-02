@@ -1,0 +1,783 @@
+{
+  "source_path": ".runtime/evidence/experiments-real.json",
+  "source_sha256": "65b1589d39c5600f0eb0cc0027e332dc09fed18f55423ccba6c29b089e35e59b",
+  "experiment_id": "8aae1d2f-02a8-4e68-870f-31e66666e43e",
+  "start": "2026-07-01",
+  "end": "2026-10-23",
+  "input_sha256": "020de5692499711b340400a91caec3ed7dd6abdcb76ba06f95e76898e4849384",
+  "metrics": {
+    "fees": "20.00",
+    "sharpe": -2.7277761908609954,
+    "sortino": -2.710763649700528,
+    "sessions": 77,
+    "turnover": 0.18540977539354797,
+    "win_rate": 0.0,
+    "trade_count": 4,
+    "final_equity": "99928.00",
+    "max_drawdown": 0.0007200000000000539,
+    "total_return": -0.0007200000000000539,
+    "closed_trades": 2,
+    "risk_free_rate": 0,
+    "initial_capital": "100000.00",
+    "annualized_return": -0.0023544362913467953,
+    "profit_loss_ratio": null,
+    "annualized_volatility": 0.0008640125335339917
+  },
+  "curve": [
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-01",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-02",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-03",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-06",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-07",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-08",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-09",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-10",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-13",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-14",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-15",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-16",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-17",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-20",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-21",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-22",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-23",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-24",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-27",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-28",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-29",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-30",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-07-31",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-03",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-04",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-05",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-06",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-07",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-10",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-11",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-12",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-13",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-14",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-17",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-18",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-19",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-20",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-21",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-24",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-25",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-26",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-27",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-28",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-08-31",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "100000.00",
+      "equity": "100000.00",
+      "drawdown": 0.0,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-01",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "95342.00",
+      "equity": "99962.00",
+      "drawdown": 0.00038,
+      "daily_pnl": "-38.00",
+      "trade_date": "2026-09-02",
+      "position_value": "4620.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99965.00",
+      "equity": "99965.00",
+      "drawdown": 0.00035,
+      "daily_pnl": "3.00",
+      "trade_date": "2026-09-03",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99965.00",
+      "equity": "99965.00",
+      "drawdown": 0.00035,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-04",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99965.00",
+      "equity": "99965.00",
+      "drawdown": 0.00035,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-07",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99965.00",
+      "equity": "99965.00",
+      "drawdown": 0.00035,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-08",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "95319.00",
+      "equity": "99956.00",
+      "drawdown": 0.00044,
+      "daily_pnl": "-9.00",
+      "trade_date": "2026-09-09",
+      "position_value": "4637.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "-28.00",
+      "trade_date": "2026-09-10",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-11",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-14",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-15",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-16",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-17",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-18",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-21",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-22",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-23",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-24",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-28",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-29",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-09-30",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-08",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-09",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-12",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-13",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-14",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-15",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-16",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-19",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-20",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-21",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-22",
+      "position_value": "0.00",
+      "stale_valuation": false
+    },
+    {
+      "cash": "99928.00",
+      "equity": "99928.00",
+      "drawdown": 0.00072,
+      "daily_pnl": "0.00",
+      "trade_date": "2026-10-23",
+      "position_value": "0.00",
+      "stale_valuation": false
+    }
+  ],
+  "fills": [
+    {
+      "fee": "5.00",
+      "side": "BUY",
+      "gross": "4653.00",
+      "price": "4.653",
+      "reason": null,
+      "status": "FILLED",
+      "symbol": "510300",
+      "quantity": "1000",
+      "trade_date": "2026-09-02",
+      "signal_date": "2026-09-01",
+      "business_key": "xgboost:2026-09-02:510300:BUY",
+      "realized_pnl": null,
+      "execution_model": "NEXT_OPEN_DAILY_ESTIMATE"
+    },
+    {
+      "fee": "5.00",
+      "side": "SELL",
+      "gross": "4628.00",
+      "price": "4.628",
+      "reason": null,
+      "status": "FILLED",
+      "symbol": "510300",
+      "quantity": "1000",
+      "trade_date": "2026-09-03",
+      "signal_date": "2026-09-02",
+      "business_key": "xgboost:2026-09-03:510300:SELL",
+      "realized_pnl": "-35.00",
+      "execution_model": "NEXT_OPEN_DAILY_ESTIMATE"
+    },
+    {
+      "fee": "5.00",
+      "side": "BUY",
+      "gross": "4641.00",
+      "price": "4.641",
+      "reason": null,
+      "status": "FILLED",
+      "symbol": "510300",
+      "quantity": "1000",
+      "trade_date": "2026-09-09",
+      "signal_date": "2026-09-08",
+      "business_key": "xgboost:2026-09-09:510300:BUY",
+      "realized_pnl": null,
+      "execution_model": "NEXT_OPEN_DAILY_ESTIMATE"
+    },
+    {
+      "fee": "5.00",
+      "side": "SELL",
+      "gross": "4614.00",
+      "price": "4.614",
+      "reason": null,
+      "status": "FILLED",
+      "symbol": "510300",
+      "quantity": "1000",
+      "trade_date": "2026-09-10",
+      "signal_date": "2026-09-09",
+      "business_key": "xgboost:2026-09-10:510300:SELL",
+      "realized_pnl": "-37.00",
+      "execution_model": "NEXT_OPEN_DAILY_ESTIMATE"
+    }
+  ]
+}

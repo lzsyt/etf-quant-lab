@@ -1,0 +1,66 @@
+server:
+  compression:
+    enabled: true
+    mime-types: application/json,text/html,text/css,application/javascript
+    min-response-size: 1024
+  address: ${ETF_BIND_ADDRESS:127.0.0.1}
+  port: ${ETF_PORT:18080}
+  servlet:
+    session:
+      timeout: 30m
+      cookie:
+        http-only: true
+        same-site: strict
+spring:
+  application:
+    name: etf-quant-lab
+  datasource:
+    url: ${ETF_DB_URL:jdbc:postgresql://127.0.0.1:55432/etf_quant_lab}
+    username: ${ETF_DB_USER:etf_app}
+    password: ${ETF_DB_PASSWORD}
+    hikari:
+      maximum-pool-size: 6
+      connection-timeout: 10000
+  jackson:
+    time-zone: UTC
+  flyway:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never
+logging:
+  pattern:
+    level: "%5p [trace_id=%X{trace_id}]"
+  file:
+    name: ${ETF_LOG_DIR:.runtime/logs}/backend.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      max-history: 7
+      total-size-cap: 100MB
+etf:
+  forecast-enabled: ${ETF_FORECAST_ENABLED:false}
+  fund-llm-enabled: ${ETF_FUND_LLM_ENABLED:false}
+  fund-enabled: ${ETF_FUND_ENABLED:true}
+  fund-scheduling-enabled: ${ETF_FUND_SCHEDULING_ENABLED:false}
+  fund-news-poll-minutes: ${ETF_FUND_NEWS_POLL_MINUTES:15}
+  gold-enabled: ${ETF_GOLD_ENABLED:true}
+  gold-llm-enabled: ${ETF_GOLD_LLM_ENABLED:false}
+  gold-sync-time: ${ETF_GOLD_SYNC_TIME:21:00}
+  gold-research-time: ${ETF_GOLD_RESEARCH_TIME:22:30}
+  gold-research-day: ${ETF_GOLD_RESEARCH_DAY:MONDAY}
+  forward-enabled: ${ETF_FORWARD_ENABLED:false}
+  forward-llm-enabled: ${ETF_FORWARD_LLM_ENABLED:false}
+  code-version: ${ETF_CODE_VERSION:LOCAL_UNRELEASED}
+  llm-daily-usd: ${ETF_LLM_DAILY_USD:0}
+  gpt-daily-usd: ${ETF_GPT_DAILY_USD:0}
+  admin-user: ${ETF_ADMIN_USER:admin}
+  admin-password-hash: ${ETF_ADMIN_PASSWORD_HASH}
+  quant-url: ${ETF_QUANT_URL:http://127.0.0.1:18081}
+  internal-token: ${ETF_INTERNAL_TOKEN}
+  scheduling-enabled: ${ETF_SCHEDULING_ENABLED:false}
